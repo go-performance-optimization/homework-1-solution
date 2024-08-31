@@ -13,9 +13,6 @@ import (
 	"time"
 )
 
-// TODO: add more log information for students
-// panic just for stack trace
-
 func main() {
 	ctx, cancel := getSignalContext(context.Background())
 	defer cancel()

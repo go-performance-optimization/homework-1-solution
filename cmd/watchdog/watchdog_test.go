@@ -45,6 +45,7 @@ func TestWatchdog(t *testing.T) {
 		success = true
 	}
 
+	// TODO
 	testServer := httptest.NewServer(handler)
 	t.Cleanup(func() {
 		testServer.Close()
